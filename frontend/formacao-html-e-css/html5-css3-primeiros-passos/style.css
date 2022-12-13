@@ -1,17 +1,17 @@
-body {
-  background: #CCCCCC;
-}
-
 #banner {
   width: 100%;
 }
 
-h1 {
-  text-align: center;
+.principal {
   background: #CCCCCC;
+  padding: 30px;
 }
 
-p {
+.main-header {
+  padding-left: 20px;
+}
+
+.text-is-centered {
   text-align: center;
 }
 
@@ -19,6 +19,25 @@ p {
   font-size: 20px;
 }
 
-em strong {
+.is-red {
   color: red;
+}
+
+.itens {
+  font-style: italic;
+}
+
+.beneficios {
+  background: #FFFFFF;
+  padding: 20px;
+}
+
+.unordered-style {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+.imagem-beneficios {
+  width: 50%;
 }
