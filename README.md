@@ -4,4 +4,4 @@ This repository is meant to store , among other things, my codelines throught le
 
 ## Naming conventions
 
-Alura has its material mainly produced in portuguese, so the folders containing the source will be named in portuguese and its modules will have the prefix _formacao_ while the courses will be named directly without any prefix. 
+Alura has its material mainly produced in portuguese, so the folders containing the source will be named in portuguese and its modules will have the prefix `formacao` while the courses will be named directly without any prefix. 
