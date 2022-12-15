@@ -20,7 +20,7 @@ nav li {
   margin: 0 0 0 15px;
 }
 
-nav a{
+nav a {
   color: #000000;
   font-weight: bold;
   text-decoration: none;
@@ -28,20 +28,42 @@ nav a{
   font-size: 22px;
 }
 
+nav a:hover {
+  color: #FFDB58;
+  text-decoration: underline;
+}
+
+main {
+  margin: 10px 0;
+}
 .produtos {
   width: 940px;
   margin: 0 auto;
 }
 
 .produtos li{
-  background: #DDDDDD;
+  border: thin solid #BBBBBB;
+  border-radius: 3px;
   width: 30%;
   display: inline-block;
   vertical-align: top;
   text-align: center;
-  padding: 25px 20px;
+  padding:  25px 20px;
   margin: 0 1.5%;
   box-sizing: border-box;
+}
+
+.produtos li:hover {
+  border-color: #89CFF0;
+  border-width: 2px;
+}
+
+.produtos li:hover h2 {
+  font-size: 34px;
+}
+
+.produtos li:active {
+  border-color: #5CED73;
 }
 
 .produtos h2 {
@@ -58,4 +80,15 @@ nav a{
   margin-top: 10px;
   font-size: 22px;
   font-weight: bold;
+}
+
+footer {
+  background: url("bg.jpg");
+  text-align: center;
+  padding: 20px 0;
+}
+
+.copyright {
+  color: #FFFFFF;
+  font-size: 14px;
 }
