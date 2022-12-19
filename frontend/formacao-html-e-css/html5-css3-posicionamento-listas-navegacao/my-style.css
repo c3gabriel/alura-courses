@@ -93,3 +93,51 @@ footer {
   color: #FFFFFF;
   font-size: 14px;
 }
+
+main {
+    background: #22272e;
+    padding: 25px;
+}
+
+.form-header {
+  width: 560px;
+  margin: 0 auto;
+  border: 1px solid #444c56;
+  border-radius: 6px;
+  color: #adbac7;
+  font-family: 'Jetbrains Mono'
+}
+.form-header h2 {
+  border-bottom: 1px solid #444c56;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+form {
+  padding: 15px 15px;
+}
+
+input {
+  background: #22272e;
+  border: 1px solid #444c56;
+  border-radius: 6px;
+  color: #FFFFFF;
+  padding: 5px 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#email {
+  margin: 10px;
+  display: inline-block;
+  width: 70%;
+}
+
+#submitButton{
+  margin: 10px auto auto;
+  display: block;
+}
